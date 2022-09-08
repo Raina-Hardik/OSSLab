@@ -1,0 +1,3 @@
+Chips|20
+Coke|50
+Pizza|200
