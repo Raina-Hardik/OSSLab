@@ -9,12 +9,12 @@ lst2 = [item for item in input("Enter the list items : ").split()]
 
 unique, frequency = np.unique(np.array(lst1), return_counts = True)
 
-print("List 1 \n Ele : Freq")
+print("List 1 \nEle : Freq")
 print(dict(zip(unique, frequency)))
 print("Total: {}".format(len(unique)))
 
 unique, frequency = np.unique(np.array(lst2), return_counts = True)
-print("\n\nList 2 \n Ele : Freq")
+print("\n\nList 2 \nEle : Freq")
 print(dict(zip(unique, frequency)))
 print("Total: {}".format(len(unique)))
 
